@@ -7,10 +7,10 @@
  */
 int its_prime(int n, int h)
 {
-	if (n % h == 0 && h > 0)
-		return (0);
 	if (h == 1)
 		return (1);
+	if (n % h == 0 && h > 0)
+		return (0);
 	return (its_prime(n, h - 1));
 }
 
