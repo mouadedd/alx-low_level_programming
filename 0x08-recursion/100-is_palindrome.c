@@ -6,13 +6,13 @@
  * @sl: string's length
  * Return: 1 if true else 0
  */
-int see_if_pal(char *s, int h, int ls)
+int see_if_pal(char *s, int h, int sl)
 {
-	if (*(s + h) != *(s + ls - 1))
+	if (*(s + h) != *(s + sl - 1))
 		return (0);
-	if (h >= ls)
+	if (h >= sl)
 		return (1);
-	return (see_if_pal(s, h + 1, ls - 1));
+	return (see_if_pal(s, h + 1, sl - 1));
 }
 
 /**
