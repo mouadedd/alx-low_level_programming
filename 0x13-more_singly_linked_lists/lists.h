@@ -1,4 +1,4 @@
-fndef LST_H
+#ifndef LST_H
 #define LST_H
 #include <stdio.h>
 #include <stdlib.h>
