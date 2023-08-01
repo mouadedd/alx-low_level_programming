@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * pop_listint – delete head node
+ * pop_listint - delete head node
  * @head: pointer 0 in the list
- * Return: data of the node or 0 if its empty 
+ * Return: data of the node or 0 if its empty
  */
 int pop_listint(listint_t **head)
 {
