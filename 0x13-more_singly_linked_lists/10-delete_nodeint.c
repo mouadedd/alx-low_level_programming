@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * delete_nodeint_at_index – delete indexed node
+ * delete_nodeint_at_index - delete indexed node
  * @head: pointer
  * @index: index
  * Return: 1 if succeded or -1 if it fails
