@@ -4,7 +4,7 @@
 
 
 /**
- * alocate_buf - allocate 1024 bytes for a fil
+ * allocate_buf - allocate 1024 bytes for a fil
  * @f: name of the buffer's file
  * Return: A pointer to the buffer
  */
